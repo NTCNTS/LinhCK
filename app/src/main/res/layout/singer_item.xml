@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3D5060">
+
+        <ImageView
+            android:id="@+id/hinh"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/hinh"
+            android:text="Tên"
+            android:textColor="#F2F3F6"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nghedanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ten"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/hinh"
+            android:text="nghe danh"
+            android:textColor="#EBEEF3"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/quocgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nghedanh"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/hinh"
+            android:text="quoc gia"
+            android:textColor="#EBEEF3"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/sao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/ten"
+            android:text="sao"
+            android:textColor="#EBEEF3"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/hinh"
+            android:src="@drawable/star" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
